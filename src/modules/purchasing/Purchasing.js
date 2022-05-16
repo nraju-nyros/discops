@@ -1,4 +1,5 @@
-import { PlusOutlined, QuestionCircleOutlined } from "@ant-design/icons";
+import { PlusOutlined, QuestionCircleOutlined,SearchOutlined } from "@ant-design/icons";
+
 
 import { Table, Button, Checkbox, Col, Modal, Row, Tooltip, Input,Typography} from "antd";
 
@@ -209,8 +210,7 @@ export const Purchasing = () => {
 
   return (
     <>
-      <div>
-      <br/>
+      <div className={"mr-3 ml-3"}>
         <div
           style={{
             textAlign: "center",
@@ -219,58 +219,59 @@ export const Purchasing = () => {
             paddingTop: "2px",
             paddingBottom: "0px",
           }}
+          className={"mt-2"}
         >
           <p>CONTROLLED UNCLASSIFIED INFORMATION(CUI)</p>
         </div>
 
 
-        <Row>
-      <Col span={8}><Title level={2}>Purchasing</Title></Col>
-      <Col span={8} offset={8}>
-        <Link to="/purchase/new">Create Purchase Requistion</Link>
-      </Col>
-    </Row>
-     <Row>
-      <Col span={8}><Title level={5}>Manage Purchasing here</Title></Col>
-     
-    </Row>
+      <Row className={"mr-1"}>
+        <Col span={8}><Title level={2}>Purchasing</Title></Col>
+        <Col span={6}></Col>
+        <Col span={8} className="mt-2 mr-1" align="right">
+         
+        {/*<Button type="primary" icon={<SearchOutlined />}>*/}
+           <Link to="/purchase/new">Create Purchase Requistion</Link>
+        {/*</Button>*/}
+        </Col>
+      </Row>
+      <Row>
+        <Col span={8}><Title level={5}>Manage Purchasing here</Title></Col>
+      </Row>
 
-        <Input
-          // ref={inputRef}
-          type="search"
-          size="large"
-          style={{
-            marginTop:"5px",
-            borderRadius: "20px",
-            maxWidth: "285px",
-            height: "40px",
-            boxShadow: "0 1px 10px #00000012",
-          }}
-          className="text-h1 font-poppins border-0 hover:border-white"
-          placeholder={"Search"}
-          onChange={(e) => {
-            handleSearch(e.target.value);
-          }}
-          prefix={
-            <Tooltip
-              title={"search"}
-              overlayStyle={{
-                maxWidth: "50%",
-              }}
-              placement="topRight"
-            >
-              <img
-                src="/images/icons/search.svg"
-                alt="search"
-                className="ml-2"
-              />
-            </Tooltip>
-          }
-        />
-              <br/>              <br/>
-
-
-
+      <Input
+        // ref={inputRef}
+        type="search"
+        size="large"
+        style={{
+          marginTop:"5px",
+          borderRadius: "20px",
+          maxWidth: "285px",
+          height: "40px",
+          boxShadow: "0 1px 10px #00000012",
+        }}
+        className="text-h1 font-poppins border-0 hover:border-white"
+        placeholder={"Search"}
+        onChange={(e) => {
+          handleSearch(e.target.value);
+        }}
+        prefix={
+          <Tooltip
+            title={"search"}
+            overlayStyle={{
+              maxWidth: "50%",
+            }}
+            placement="topRight"
+          >
+            <img
+              src="/images/icons/search.svg"
+              alt="search"
+              className="ml-2"
+            />
+          </Tooltip>
+        }
+      />
+      <div className={"mt-3"}>
         <Table
           pagination={{ pageSizeOptions: ["2", "4"], showSizeChanger: true }}
           columns={columns}
@@ -278,6 +279,7 @@ export const Purchasing = () => {
           onChange={onChange}
         />
       </div>
-    </>
+    </div>
+  </>
   );
 };
