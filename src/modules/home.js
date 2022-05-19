@@ -8,7 +8,8 @@ export const Home = () => {
       <div style={{textAlign: 'center'}}>
         <br/><br/><br/>
         <h2>Home </h2>
-        <Link to="/Purchasing">Purchasing</Link>
+        <Link to="/Purchasing">Purchasing</Link>&nbsp;&nbsp;&nbsp;
+        <Link to="/dispatch">Dispatch</Link>
       </div>
     </>
   )
