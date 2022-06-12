@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="Group_117218" data-name="Group 117218" transform="translate(-36 -2922)">
+    <rect id="Rectangle_22885" data-name="Rectangle 22885" width="20" height="20" transform="translate(36 2922)" fill="#de2222" opacity="0"/>
+    <g id="Group_117215" data-name="Group 117215" transform="translate(-180.999 -11.001)">
+      <g id="Group_117186" data-name="Group 117186" transform="translate(216.999 2936.001)">
+        <path id="Icon_awesome-exchange-alt" data-name="Icon awesome-exchange-alt" d="M0,6.525v-.37A.555.555,0,0,1,.555,5.6H8.876V4.491A.555.555,0,0,1,9.823,4.1l1.849,1.849a.555.555,0,0,1,0,.785L9.823,8.582a.555.555,0,0,1-.947-.392V7.08H.555A.555.555,0,0,1,0,6.525Zm11.28,3.513H2.959V8.929a.555.555,0,0,0-.947-.392L.162,10.386a.555.555,0,0,0,0,.785L2.012,13.02a.555.555,0,0,0,.947-.392v-1.11H11.28a.555.555,0,0,0,.555-.555v-.37A.555.555,0,0,0,11.28,10.039Z" transform="translate(4.515 -1.436)" fill="#fff"/>
+        <path id="Subtraction_23" data-name="Subtraction 23" d="M1.25,1.25v12.5h17.5V1.25H1.25M0,0H20V15H0Z" transform="translate(0 0)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

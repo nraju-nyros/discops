@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="21" height="18" viewBox="0 0 21 18">
+    <defs>
+        <style>
+            .prefix__cls-1{fill:#fff;stroke:#fff;stroke-linecap:round}.prefix__cls-2{stroke:none}.prefix__cls-3{fill:none}
+        </style>
+    </defs>
+    <g id="prefix__Group_23" data-name="Group 23" transform="translate(-36 -83)">
+        <g id="prefix__Group_21" data-name="Group 21" transform="translate(36 83)">
+            <g id="prefix__Rectangle_68" class="prefix__cls-1" data-name="Rectangle 68">
+                <rect width="21" height="2" class="prefix__cls-2" rx="1"/>
+                <rect width="20" height="1" x=".5" y=".5" class="prefix__cls-3" rx=".5"/>
+            </g>
+            <g id="prefix__Rectangle_69" class="prefix__cls-1" data-name="Rectangle 69" transform="translate(0 8)">
+                <rect width="21" height="2" class="prefix__cls-2" rx="1"/>
+                <rect width="20" height="1" x=".5" y=".5" class="prefix__cls-3" rx=".5"/>
+            </g>
+            <g id="prefix__Rectangle_70" class="prefix__cls-1" data-name="Rectangle 70" transform="translate(0 16)">
+                <rect width="10" height="2" class="prefix__cls-2" rx="1"/>
+                <rect width="9" height="1" x=".5" y=".5" class="prefix__cls-3" rx=".5"/>
+            </g>
+        </g>
+    </g>
+</svg>

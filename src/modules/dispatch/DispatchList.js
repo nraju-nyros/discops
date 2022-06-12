@@ -19,7 +19,7 @@ import {
 import React, { useContext, useEffect, useState } from "react";
 import { useNavigate, useHistory, Link } from "react-router-dom";
 import { DispatchCreate } from "./DispatchCreate";
-
+import { SideDrawer } from "../components/SideDrawer";
 
 const { Title } = Typography;
 
@@ -111,9 +111,23 @@ const mockData = [
 ];
 
 export const DispatchList = () => {
-  const [purchasingList, setPurchasingList] = useState(mockData);
-  const [filterPurchasingList, setFilterPurchasingList] = useState(mockData);
-    const [isModalVisible, setIsModalVisible] = useState(false);
+  const [dispatchList, setDispatchList] = useState([]);
+  const [filterDispatchList, setFilterDispatchList] = useState([]);
+  const [isModalVisible, setIsModalVisible] = useState(false);
+
+  useEffect(() => {
+    getDispatchList();
+  }, []);
+
+  const getDispatchList = () => {
+    fetch("https://62a19ef0cd2e8da9b0f56b79.mockapi.io/api/v6/dispatch")
+      .then((res) => res.json())
+      .then((json) => {
+        setDispatchList(json);
+        setFilterDispatchList(json);
+        console.log("response", json);
+      });
+  };
 
   const navigate = useNavigate();
 
@@ -121,13 +135,13 @@ export const DispatchList = () => {
     let query = event.toLowerCase();
     let result = [];
     console.log("hhghgh", query);
-    result = purchasingList.filter((item) => {
+    result = dispatchList.filter((item) => {
       return (
         item.DodDocNo.toString().toLowerCase().indexOf(query) >= 0 ||
         item.DodDocNo.toString().toLowerCase().indexOf(query) >= 0
       );
     });
-    setFilterPurchasingList(result);
+    setFilterDispatchList(result);
   };
 
   const columns = [
@@ -139,13 +153,13 @@ export const DispatchList = () => {
         compare: (a, b) => a.DodDocNo - b.DodDocNo,
       },
     },
-   
-     {
+
+    {
       title: <Tooltip title="NIIN Text description">Description</Tooltip>,
       dataIndex: "Description",
       key: "Description",
     },
-     {
+    {
       title: <Tooltip title="Delivery Date">START Date</Tooltip>,
       dataIndex: "DeliveryDate",
       key: "DeliveryDate",
@@ -166,7 +180,7 @@ export const DispatchList = () => {
       dataIndex: "Material",
       key: "Material",
     },
-     {
+    {
       title: <Tooltip title="Purchasing Document Type">SYNC TEXT</Tooltip>,
       dataIndex: "PurchaseType",
       key: "PurchaseType",
@@ -184,26 +198,26 @@ export const DispatchList = () => {
       title: <Tooltip title="Release Status">Status</Tooltip>,
       dataIndex: "ReleaseStatus",
       key: "ReleaseStatus",
-       render: (text, record) => {
-        return(
+      render: (text, record) => {
+        return (
           <>
             <span className=" status-border-process ">Approved</span>
           </>
-        )
-      }
+        );
+      },
     },
-   
+
     {
       title: <Tooltip title="Milstrip Status">M Status</Tooltip>,
       dataIndex: "MilstripStatus",
       key: "MilstripStatus",
-       render: (text, record) => {
-        // const buttonOnClick = () => {
-        //   history.push({
-        //       pathname: "/dispatch/completedispatchnotification",
-        //       tabValue: "2",
-        //   });
-        // };
+      render: (text, record) => {
+        const buttonOnClick = () => {
+          navigate({
+            pathname: "/dispatch/completedispatchnotification",
+            tabValue: "2",
+          });
+        };
         // const buttonOnClick2 = () => {
         //   history.push({
         //     pathname: "/workOrder/material/dismantle",
@@ -215,6 +229,9 @@ export const DispatchList = () => {
             <Button
               type="link"
               // onClick={() => buttonOnClick()}
+              onClick={() =>
+                navigate("/dispatch/completeddispatchnotification")
+              }
               size="large"
               className="py-0 inline-flex items-center border border-daisy-bush rounded-md px-3 mr-3"
             >
@@ -226,8 +243,6 @@ export const DispatchList = () => {
         );
       },
     },
-
-   
   ];
 
   function onChange(pagination, filters, sorter, extra) {
@@ -258,7 +273,7 @@ export const DispatchList = () => {
           <Col span={8} className="mt-2 mr-1" align="right">
             <Button
               type="link"
-               onClick={() => navigate("/dispatch/new")}
+              onClick={() => navigate("/dispatch/new")}
               // onClick={() => setIsModalVisible(true)}
 
               size="large"
@@ -320,13 +335,13 @@ export const DispatchList = () => {
           <Table
             pagination={{ pageSizeOptions: ["2", "4"], showSizeChanger: true }}
             columns={columns}
-            dataSource={filterPurchasingList}
+            dataSource={filterDispatchList}
             onChange={onChange}
           />
         </div>
       </div>
 
-     {/* {isModalVisible && (
+      {/* {isModalVisible && (
       
           <DispatchCreate
             onClose={() => {

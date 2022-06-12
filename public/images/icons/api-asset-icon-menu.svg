@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="assets" transform="translate(-20 -172)">
+    <g id="Rectangle_22804" data-name="Rectangle 22804" transform="translate(20 172)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="20" height="20" stroke="none"/>
+      <rect x="0.5" y="0.5" width="19" height="19" fill="none"/>
+    </g>
+    <path id="Bin_383a65" d="M0,2.25A1.25,1.25,0,0,1,1.25,1h17.5A1.25,1.25,0,0,1,20,2.25v2.5A1.25,1.25,0,0,1,18.75,6v9.375A3.125,3.125,0,0,1,15.625,18.5H4.375A3.125,3.125,0,0,1,1.25,15.375V6A1.25,1.25,0,0,1,0,4.75ZM2.5,6v9.375A1.875,1.875,0,0,0,4.375,17.25h11.25A1.875,1.875,0,0,0,17.5,15.375V6ZM18.75,2.25H1.25v2.5h17.5ZM6.25,9.125A.625.625,0,0,1,6.875,8.5h6.25a.625.625,0,1,1,0,1.25H6.875A.625.625,0,0,1,6.25,9.125Z" transform="translate(20 173)" fill="#fff"/>
+  </g>
+</svg>

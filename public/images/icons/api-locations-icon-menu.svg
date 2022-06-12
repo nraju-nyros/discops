@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20.138" viewBox="0 0 20 20.138">
+  <g id="Group_117081" data-name="Group 117081" transform="translate(-48 -1096)">
+    <g id="Rectangle_22828" data-name="Rectangle 22828" transform="translate(48 1096)" fill="#c1c1c1" stroke="#fff" stroke-width="0.2" opacity="0">
+      <rect width="20" height="20" stroke="none"/>
+      <rect x="0.1" y="0.1" width="19.8" height="19.8" fill="none"/>
+    </g>
+    <g id="Group_117080" data-name="Group 117080" transform="translate(-60 9)">
+      <g id="geo-alt_2_" data-name="geo-alt (2)" transform="translate(111 1088)">
+        <path id="Path_183019" data-name="Path 183019" d="M14.072,10.616a22.83,22.83,0,0,1-2.327,3.646,37.4,37.4,0,0,1-2.62,3.052,37.384,37.384,0,0,1-2.62-3.052,22.83,22.83,0,0,1-2.328-3.646,8.216,8.216,0,0,1-.99-3.491,5.938,5.938,0,0,1,11.875,0,8.233,8.233,0,0,1-.99,3.491ZM9.125,19S16.25,12.248,16.25,7.125A7.125,7.125,0,1,0,2,7.125C2,12.248,9.125,19,9.125,19Z" transform="translate(-2)" fill="#fff" stroke="#fff" stroke-width="0.2"/>
+        <path id="Path_183020" data-name="Path 183020" d="M8.563,8.938a2.375,2.375,0,1,1,2.375-2.375A2.375,2.375,0,0,1,8.563,8.938Zm0,1.187A3.563,3.563,0,1,0,5,6.563,3.563,3.563,0,0,0,8.563,10.125Z" transform="translate(-1.438 0.563)" fill="#fff" stroke="#fff" stroke-width="0.2"/>
+      </g>
+    </g>
+  </g>
+</svg>

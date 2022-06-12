@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="device" transform="translate(-34 -206)">
+    <g id="phone" transform="translate(35 206)">
+      <path id="Path_182929" data-name="Path 182929" d="M13,1.25A1.25,1.25,0,0,1,14.25,2.5v15A1.25,1.25,0,0,1,13,18.75H5.5A1.25,1.25,0,0,1,4.25,17.5V2.5A1.25,1.25,0,0,1,5.5,1.25ZM5.5,0A2.5,2.5,0,0,0,3,2.5v15A2.5,2.5,0,0,0,5.5,20H13a2.5,2.5,0,0,0,2.5-2.5V2.5A2.5,2.5,0,0,0,13,0Z" fill="#fff"/>
+      <path id="Path_182930" data-name="Path 182930" d="M8.01,14.02A1.01,1.01,0,1,0,7,13.01,1.01,1.01,0,0,0,8.01,14.02Z" transform="translate(1.24 3.961)" fill="#fff"/>
+    </g>
+    <g id="Rectangle_22807" data-name="Rectangle 22807" transform="translate(34 206)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="20" height="20" stroke="none"/>
+      <rect x="0.5" y="0.5" width="19" height="19" fill="none"/>
+    </g>
+  </g>
+</svg>

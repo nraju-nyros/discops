@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" viewBox="0 0 27 27">
+  <g id="Group_117103" data-name="Group 117103" transform="translate(-320 -2107)">
+    <g id="Putaway_383a65_" data-name="Putaway_383a65 " transform="translate(-309 1573)">
+      <circle id="Ellipse_40727" data-name="Ellipse 40727" cx="13.5" cy="13.5" r="13.5" transform="translate(629 534)" fill="#f3f5f8"/>
+    </g>
+    <g id="noun_inspection_3307934" transform="translate(325.003 2096.874)">
+      <path id="Path_182363" data-name="Path 182363" d="M143.6,141.966a.254.254,0,0,0-.36,0l-.074.074-.362-.361a3.816,3.816,0,1,0-1.122,1.122l.362.362-.074.074a.254.254,0,0,0,0,.36l3.3,3.3a1.153,1.153,0,1,0,1.631-1.63ZM139.6,136.3a3.293,3.293,0,0,1,1.017.16v4.415h-4.067a3.3,3.3,0,0,1,3.05-4.576Zm-2.784,5.084h4.055a.254.254,0,0,0,.254-.254v-4.456a3.3,3.3,0,1,1-4.309,4.71Zm5.269,1.11a3.849,3.849,0,0,0,.4-.4l.31.31-.4.4Zm1.327.013.4.4-.912.911-.4-.4Zm2.66,4.216a.64.64,0,0,1-.456-.189l-2.353-2.353.912-.912,2.353,2.353a.645.645,0,0,1-.456,1.1Z" transform="translate(-131.106 -115.977)" fill="#383a65" stroke="#383a65" stroke-width="0.2"/>
+      <path id="Path_182364" data-name="Path 182364" d="M23.626,19.3v-3.05A.254.254,0,0,0,23.372,16H16.254a.254.254,0,0,0-.254.254v7.372a.254.254,0,0,0,.254.254H19.3v-.508h-2.8V18.034h2.034v1.525a.254.254,0,0,0,.434.18l.329-.329.329.329a.254.254,0,0,0,.359,0l.329-.329.329.329a.254.254,0,0,0,.434-.18V18.034h2.034V19.3Zm-7.118-1.779V16.508h2.034v1.017ZM20.5,18.871a.254.254,0,0,0-.359,0l-.329.329-.329-.329a.254.254,0,0,0-.359,0l-.074.074V16.508h1.525v2.437Zm.583-1.345V16.508h2.034v1.017Z" transform="translate(-15.129 0)" fill="#383a65" stroke="#383a65" stroke-width="0.2"/>
+      <rect id="Rectangle_21054" data-name="Rectangle 21054" height="0.584" transform="translate(7.951 23.588)" fill="#383a65" stroke="#383a65" stroke-width="0.2"/>
+      <rect id="Rectangle_21055" data-name="Rectangle 21055" width="0.584" height="0.584" transform="translate(6.784 23.588)" fill="#383a65" stroke="#383a65" stroke-width="0.2"/>
+      <rect id="Rectangle_21056" data-name="Rectangle 21056" width="0.584" height="0.584" transform="translate(8.535 23.588)" fill="#383a65" stroke="#383a65" stroke-width="0.2"/>
+      <rect id="Rectangle_21057" data-name="Rectangle 21057" height="0.584" transform="translate(2.114 21.254)" fill="#383a65" stroke="#383a65" stroke-width="0.2"/>
+      <rect id="Rectangle_21058" data-name="Rectangle 21058" width="1.167" height="0.584" transform="translate(2.697 21.254)" fill="#383a65" stroke="#383a65" stroke-width="0.2"/>
+      <rect id="Rectangle_21059" data-name="Rectangle 21059" width="1.167" height="0.584" transform="translate(2.114 22.421)" fill="#383a65" stroke="#383a65" stroke-width="0.2"/>
+    </g>
+  </g>
+</svg>

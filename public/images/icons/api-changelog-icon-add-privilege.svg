@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" viewBox="0 0 27 27">
+  <g id="Group_117207" data-name="Group 117207" transform="translate(-311 -2912)">
+    <circle id="Ellipse_40727" data-name="Ellipse 40727" cx="13.5" cy="13.5" r="13.5" transform="translate(311 2912)" fill="#f3f5f8"/>
+    <g id="Group_117188" data-name="Group 117188" transform="translate(100.001 -16.001)">
+      <g id="Group_117186" data-name="Group 117186" transform="translate(216.999 2936.001)">
+        <path id="Icon_awesome-exchange-alt" data-name="Icon awesome-exchange-alt" d="M0,5.8V5.533a.4.4,0,0,1,.4-.4H6.387v-.8a.4.4,0,0,1,.681-.282L8.4,5.384a.4.4,0,0,1,0,.565L7.068,7.279A.4.4,0,0,1,6.387,7V6.2H.4A.4.4,0,0,1,0,5.8ZM8.116,8.327H2.129v-.8a.4.4,0,0,0-.681-.282L.117,8.577a.4.4,0,0,0,0,.565l1.331,1.331a.4.4,0,0,0,.681-.282v-.8H8.116a.4.4,0,0,0,.4-.4V8.726A.4.4,0,0,0,8.116,8.327Z" transform="translate(3.249 -2.138)" fill="#383a65"/>
+        <path id="Subtraction_23" data-name="Subtraction 23" d="M.9.9V9.893H13.491V.9H.9M0,0h14.39V10.792H0Z" fill="#383a65"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -109,9 +109,23 @@ const mockData = [
 ];
 
 export const Purchasing = () => {
-  const [purchasingList, setPurchasingList] = useState(mockData);
-  const [filterPurchasingList, setFilterPurchasingList] = useState(mockData);
+  const [purchasingList, setPurchasingList] = useState([]);
+  const [filterPurchasingList, setFilterPurchasingList] = useState([]);
   const navigate = useNavigate();
+
+  useEffect(() => {
+    getPurchaseList();
+  }, []);
+
+  const getPurchaseList = () => {
+    fetch("https://62a19ef0cd2e8da9b0f56b79.mockapi.io/api/v6/purchasing")
+      .then((res) => res.json())
+      .then((json) => {
+        setPurchasingList(json);
+        setFilterPurchasingList(json);
+        console.log("response", json);
+      });
+  };
 
   const handleSearch = (event) => {
     let query = event.toLowerCase();

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" viewBox="0 0 27 27">
+  <g id="Group_117114" data-name="Group 117114" transform="translate(-313 -2353)">
+    <g id="Group_117035" data-name="Group 117035" transform="translate(16 -116)">
+      <circle id="Ellipse_40727" data-name="Ellipse 40727" cx="13.5" cy="13.5" r="13.5" transform="translate(297 2469)" fill="#f3f5f8"/>
+    </g>
+    <g id="noun_Calendar_3036747" transform="translate(311 2351)">
+      <g id="Layer_27" data-name="Layer 27" transform="translate(9 9)">
+        <path id="Path_183141" data-name="Path 183141" d="M20.539,9.989H18.725V9.33a.33.33,0,0,0-.659,0v.659H15.758V9.33a.33.33,0,1,0-.659,0v.659H12.791V9.33a.33.33,0,0,0-.659,0v.659H10.319A1.319,1.319,0,0,0,9,11.308v9.231a1.319,1.319,0,0,0,1.319,1.319h10.22a1.319,1.319,0,0,0,1.319-1.319V11.308A1.319,1.319,0,0,0,20.539,9.989ZM9.659,11.308a.659.659,0,0,1,.659-.659h1.813v.659a.33.33,0,1,0,.659,0v-.659H15.1v.659a.33.33,0,1,0,.659,0v-.659h2.308v.659a.33.33,0,1,0,.659,0v-.659h1.813a.659.659,0,0,1,.659.659v1.648H9.659ZM21.2,20.539a.659.659,0,0,1-.659.659H10.319a.659.659,0,0,1-.659-.659V13.615H21.2Z" transform="translate(-9 -9)" fill="#383a65" stroke="#383a65" stroke-width="0.2"/>
+        <rect id="Rectangle_22839" data-name="Rectangle 22839" width="1.033" height="1.033" transform="translate(5.802 5.799)" fill="#383a65"/>
+        <rect id="Rectangle_22840" data-name="Rectangle 22840" width="1.033" height="1.033" transform="translate(7.869 5.799)" fill="#383a65"/>
+        <rect id="Rectangle_22841" data-name="Rectangle 22841" width="0.517" height="1.033" transform="translate(9.936 5.799)" fill="#383a65"/>
+        <rect id="Rectangle_22842" data-name="Rectangle 22842" width="1.033" height="1.033" transform="translate(2.185 7.866)" fill="#383a65"/>
+        <rect id="Rectangle_22843" data-name="Rectangle 22843" width="1.033" height="1.033" transform="translate(3.735 7.866)" fill="#383a65"/>
+        <rect id="Rectangle_22844" data-name="Rectangle 22844" width="1.033" height="1.033" transform="translate(5.802 7.866)" fill="#383a65"/>
+        <rect id="Rectangle_22845" data-name="Rectangle 22845" width="1.033" height="1.033" transform="translate(7.869 7.866)" fill="#383a65"/>
+        <rect id="Rectangle_22846" data-name="Rectangle 22846" width="0.517" height="1.033" transform="translate(9.936 7.866)" fill="#383a65"/>
+        <rect id="Rectangle_22847" data-name="Rectangle 22847" width="1.033" height="0.517" transform="translate(2.185 9.933)" fill="#383a65"/>
+        <rect id="Rectangle_22848" data-name="Rectangle 22848" width="1.033" height="0.517" transform="translate(3.735 9.933)" fill="#383a65"/>
+        <rect id="Rectangle_22849" data-name="Rectangle 22849" width="1.033" height="0.517" transform="translate(5.802 9.933)" fill="#383a65"/>
+      </g>
+    </g>
+  </g>
+</svg>

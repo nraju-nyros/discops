@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" viewBox="0 0 27 27">
+  <g id="Group_116643" data-name="Group 116643" transform="translate(-314 -399)">
+    <g id="Group_484" data-name="Group 484" transform="translate(314 399)">
+      <g id="Group_476" data-name="Group 476">
+        <circle id="Ellipse_92" data-name="Ellipse 92" cx="13.5" cy="13.5" r="13.5" fill="#f3f5f8"/>
+      </g>
+    </g>
+    <g id="Group_116610" data-name="Group 116610" transform="translate(-561 15)">
+      <path id="Rectangle_22740" data-name="Rectangle 22740" d="M.583.583V5.245H16.319V.583H.583M0,0H16.9V5.828H0Z" transform="translate(880 395)" fill="#383a65"/>
+      <g id="Rectangle_22741" data-name="Rectangle 22741" transform="translate(882.224 397.224)" fill="#383a65" stroke="#383a65" stroke-width="1">
+        <rect width="1.482" height="1.482" stroke="none"/>
+        <rect x="0.5" y="0.5" width="0.482" height="0.482" fill="none"/>
+      </g>
+      <g id="Rectangle_22742" data-name="Rectangle 22742" transform="translate(884.447 397.224)" fill="#383a65" stroke="#383a65" stroke-width="1">
+        <rect width="1.482" height="1.482" stroke="none"/>
+        <rect x="0.5" y="0.5" width="0.482" height="0.482" fill="none"/>
+      </g>
+      <g id="Rectangle_22743" data-name="Rectangle 22743" transform="translate(886.671 397.224)" fill="#383a65" stroke="#383a65" stroke-width="1">
+        <rect width="1.482" height="1.482" stroke="none"/>
+        <rect x="0.5" y="0.5" width="0.482" height="0.482" fill="none"/>
+      </g>
+      <g id="Rectangle_22744" data-name="Rectangle 22744" transform="translate(893.342 397.224)" fill="#383a65" stroke="#383a65" stroke-width="1">
+        <rect width="1.482" height="1.482" stroke="none"/>
+        <rect x="0.5" y="0.5" width="0.482" height="0.482" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>

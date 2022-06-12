@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="Rule" data-name="Rule" transform="translate(-21 -373)">
+    <g id="Rectangle_22810" data-name="Rectangle 22810" transform="translate(21 373)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="20" height="20" stroke="none"/>
+      <rect x="0.5" y="0.5" width="19" height="19" fill="none"/>
+    </g>
+    <g id="verified" transform="translate(-17.5 373)">
+      <path id="Path_34421" data-name="Path 34421" d="M56.393,3.239,48.737.06a.781.781,0,0,0-.6,0L40.482,3.239A.781.781,0,0,0,40,3.96V7.824a13.083,13.083,0,0,0,8.142,12.118.781.781,0,0,0,.59,0A13.083,13.083,0,0,0,56.875,7.824V3.96A.781.781,0,0,0,56.393,3.239ZM55.313,7.824A11.523,11.523,0,0,1,48.438,18.37,11.524,11.524,0,0,1,41.563,7.824V4.482l6.875-2.854,6.875,2.854Z" transform="translate(0 0)" fill="#fff"/>
+      <line id="Line_2105" data-name="Line 2105" y2="5" transform="translate(48.438 7.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1.3"/>
+      <line id="Line_2106" data-name="Line 2106" y2="5" transform="translate(50.938 10) rotate(90)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1.3"/>
+    </g>
+  </g>
+</svg>

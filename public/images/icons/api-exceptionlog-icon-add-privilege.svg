@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" viewBox="0 0 27 27">
+  <g id="Group_117202" data-name="Group 117202" transform="translate(-312 -2985)">
+    <circle id="Ellipse_40727" data-name="Ellipse 40727" cx="13.5" cy="13.5" r="13.5" transform="translate(312 2985)" fill="#f3f5f8"/>
+    <g id="Group_117196" data-name="Group 117196" transform="translate(102.918 9.081)">
+      <g id="Group_117194" data-name="Group 117194" transform="translate(215.083 2982.919)">
+        <path id="Subtraction_18" data-name="Subtraction 18" d="M13.041,13.379H1.354A1.356,1.356,0,0,1,0,12.025V1.354A1.356,1.356,0,0,1,1.354,0H13.041A1.356,1.356,0,0,1,14.4,1.354v10.67A1.356,1.356,0,0,1,13.041,13.379ZM1.016,3.395v8.63a.339.339,0,0,0,.338.338H13.041a.339.339,0,0,0,.338-.338V3.395Zm.338-2.379a.339.339,0,0,0-.338.338V2.379H13.379V1.354a.339.339,0,0,0-.338-.338Z" transform="translate(0 0)" fill="#383a65"/>
+      </g>
+      <path id="Icon_material-error-outline" data-name="Icon material-error-outline" d="M5.633,6.8h.585v.585H5.633Zm0-2.341h.585V6.218H5.633ZM5.923,3A2.926,2.926,0,1,0,8.851,5.926,2.924,2.924,0,0,0,5.923,3Zm0,5.266A2.341,2.341,0,1,1,8.266,5.926,2.34,2.34,0,0,1,5.926,8.266Z" transform="translate(216.123 2984.456)" fill="#383a65" stroke="#383a65" stroke-width="0.2"/>
+    </g>
+  </g>
+</svg>

@@ -52,6 +52,35 @@ export const PurchaseNew = () => {
     ],
   };
 
+  const addPurchase = () => {
+    fetch("https://62a19ef0cd2e8da9b0f56b79.mockapi.io/api/v6/purchasing", {
+      method: "POST",
+      headers: {
+        Accept: "application/json, text/plain, */*",
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        DodDocNo: 10010213,
+        PurchaseType: "Pending",
+        SLoc: "Boston",
+        FederalSupply: "WAH0C0",
+        Material: "Yes",
+        Quantity: 9,
+        Description: "Replacement",
+        CategoryOfIncompleteness: 14,
+        ReleaseStrategy: "Release1",
+        ReleaseStatus: "Approved",
+        Priority: "Priority11",
+        MilstripStatus: "MilstripStatus111",
+        Value: "111",
+        DeliveryDate: "12-04-2022",
+      }),
+    })
+      .then((res) => res.json())
+      .then((res) => console.log(res));
+    alert("Data insert success");
+  };
+
   return (
     <>
       <div>
@@ -83,10 +112,7 @@ export const PurchaseNew = () => {
                 <Formik
                   initialValues={initialValues}
                   validationSchema={validationSchema1}
-                  onSubmit={async (values) => {
-                    await new Promise((r) => setTimeout(r, 500));
-                    alert(JSON.stringify(values, null, 2));
-                  }}
+                  onSubmit={addPurchase}
                 >
                   {({ values }) => (
                     <Form>

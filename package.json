@@ -3,17 +3,26 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fingerprintjs/fingerprintjs": "^3.3.3",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.2.0",
     "@testing-library/user-event": "^13.5.0",
     "antd": "^4.20.4",
+    "assert": "^2.0.0",
+    "axios": "^0.27.2",
+    "buffer": "^6.0.3",
+    "crypto": "^1.0.1",
+    "crypto-browserify": "^3.12.0",
     "formik-antd": "^2.0.4",
     "history": "^5.3.0",
+    "querystring": "^0.2.1",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
+    "react-xml-parser": "^1.1.8",
     "web-vitals": "^2.1.4",
+    "write-json-file": "^5.0.0",
     "yup": "^0.32.11"
   },
   "scripts": {
@@ -44,5 +53,8 @@
     "autoprefixer": "^10.4.7",
     "postcss": "^8.4.13",
     "tailwindcss": "^3.0.24"
+  },
+  "browser": {
+    "crypto": false
   }
 }

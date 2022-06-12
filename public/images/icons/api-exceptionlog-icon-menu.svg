@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="Group_117219" data-name="Group 117219" transform="translate(-36 -2988)">
+    <rect id="Rectangle_22885" data-name="Rectangle 22885" width="20" height="20" transform="translate(36 2988)" fill="#de2222" opacity="0"/>
+    <g id="Group_117216" data-name="Group 117216" transform="translate(-179.083 6.081)">
+      <g id="Group_117194" data-name="Group 117194" transform="translate(215.083 2982.919)">
+        <path id="Subtraction_18" data-name="Subtraction 18" d="M18.118,18.588H1.882A1.884,1.884,0,0,1,0,16.706V1.882A1.884,1.884,0,0,1,1.882,0H18.118A1.884,1.884,0,0,1,20,1.882V16.706A1.884,1.884,0,0,1,18.118,18.588ZM1.412,4.716v11.99a.471.471,0,0,0,.47.47H18.118a.471.471,0,0,0,.47-.47V4.716Zm.47-3.3a.471.471,0,0,0-.47.47V3.3H18.588V1.882a.471.471,0,0,0-.47-.47Z" transform="translate(0 0)" fill="#fcfcfc"/>
+      </g>
+      <path id="Icon_material-error-outline" data-name="Icon material-error-outline" d="M6.658,8.284h.813V9.1H6.658Zm0-3.252h.813V7.471H6.658ZM7.061,3a4.065,4.065,0,1,0,4.069,4.065A4.063,4.063,0,0,0,7.061,3Zm0,7.316a3.252,3.252,0,1,1,3.252-3.252A3.251,3.251,0,0,1,7.065,10.316Z" transform="translate(217.696 2986.222)" fill="#fcfcfc" stroke="#fff" stroke-width="0.2"/>
+    </g>
+  </g>
+</svg>
